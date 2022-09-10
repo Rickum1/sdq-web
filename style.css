@@ -9,7 +9,7 @@
 
 body{
     width: 100%;
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(109,208,251,1) 0%, rgba(255,113,247,1) 75%);
+    background: linear-gradient(90deg, rgba(109,208,251,1) 0%, rgba(109,208,251,1) 46%, rgba(255,113,247,1) 81%);
   /*  background-image: radial-gradient(#7ddbfa 55%, #eb92df 45%); */
   /* cssgradient.io es una pag para generar gradients*/
 }
@@ -38,6 +38,16 @@ body{
     cursor:pointer; 
 }
 
+.bttn{
+    width: auto;
+    height: 15px;
+    padding: 10px;
+    color: snow;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: royalblue;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0.2);
+}
 
 
 /* . antes del nombre de la clase*/
