@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    width: auto;
+    height: auto; 
+    margin: 0px;
+    padding: 0px; 
+
+}
+
+body{
+    width: 100%;
+    background-image: linear-gradient(50deg, #7ddbfa 45%, #eb92df 55%); 
+  /*  background-image: radial-gradient(#7ddbfa 55%, #eb92df 45%); */
+  /* cssgradient.io es una pag para generar gradients*/
+}
+
+.container{
+    width: 100%;
+    
+}
+
+.card{
+    margin: auto;
+    width: 35%;
+    min-height: 200px;
+    margin-top: 25%;
+    padding: 15px;
+    border-radius: 10px;  /* lo curva */
+   text-align: center;
+    /* line-height: 200px; */
+   /* max-height: ; */ 
+    background-color: #e9e9e9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0.2);
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0.2);
+    cursor:pointer; 
+}
+
+
+
+/* . antes del nombre de la clase*/
+/* pseudo clase = te permite agregar cosas a una clase*/
